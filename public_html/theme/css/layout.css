@@ -1,0 +1,79 @@
+body {
+  font:12px 'Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,Sans-Serif;
+}
+
+.dm_layout_center {
+  width: 1000px;
+  margin: auto;
+}
+
+.dm_layout_top {
+  background: #E1E1E1 url(../images/head_bg.png) top left repeat-x;
+  border-bottom: 3px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.dm_layout_top div.dm_zones {
+  width: 1000px;
+  margin: auto;
+}
+
+#dm_content {
+  width: 810px;
+  float: left;
+  margin-left: 10px;
+}
+
+.dm_layout_left {
+  width: 180px;
+  float: left;
+  color: #666;
+}
+
+.dm_layout_bottom {
+  background: #E1E1E1;
+  border-top: 3px solid #ccc;
+  margin-top: 30px;
+  padding: 20px 0;
+}
+
+.dm_layout_bottom div.dm_zones {
+  width: 1000px;
+  margin: auto;
+}
+
+.main_footer .navigation,
+.main_footer .community,
+.main_footer .more_links {
+  float: left;
+  width: 25%;
+}
+
+.main_footer .navigation {
+  width: 50%;
+}
+
+.main_footer .community {
+  width: 25%;
+}
+
+.main_footer_menu {
+  margin-bottom: 1em;
+}
+
+.main_footer img {
+  vertical-align: middle;
+}
+
+.main_footer_menu .link,
+.main_footer_menu_second .link {
+  margin-right: 1em;
+}
+
+/*
+ * Hide accessibility links
+ */
+.dm_access_links {
+  position: absolute;
+  left: -9000px;
+}
