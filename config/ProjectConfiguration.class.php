@@ -9,6 +9,8 @@ class ProjectConfiguration extends dmProjectConfiguration
   public function setup()
   {
     parent::setup();
+
+    //$this->setPluginPath('dmTalkPlugin', dirname(__FILE__).'/../../dmTalkPlugin');
     
     $this->enablePlugins(array(
       'dmTalkPlugin'
